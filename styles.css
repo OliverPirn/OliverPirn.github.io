@@ -1,0 +1,37 @@
+h1 {
+	text-align: center;	
+	color: #010038;
+	font-family:Indie Flower;
+}
+   
+h2 {
+    color: purple;
+}
+
+#figma {
+	font-size: 1.75em;	
+	width: 25%;
+	margin: auto;
+	display: block;
+	background-color: #5dddd3;
+}
+
+#logo {
+	margin: auto;
+	display: block;
+}
+body{
+    border:20px double green;
+    margin:auto;	
+	padding:20px;
+	display:block;
+	width:1000px;
+	height:1700px;
+	background-color:pink;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#mocUP{
+	
+	
+}
+

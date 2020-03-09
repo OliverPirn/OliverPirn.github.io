@@ -1,0 +1,132 @@
+z<html>
+	<head>	
+		<title>Math the NOT Complex.</title>
+		 <link rel="shortcut icon" type="image/png"
+		  href="https://i.imgur.com/1FQq5a4.png"/>
+		 <link href="styles.css" rel="stylesheet"/>		
+         <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet" />	
+	</head>
+	<body>
+	  <div>  
+		
+		<img id="logo" src="https://i.imgur.com/A28Yv5I.png" width="230" height="230" />
+		<a id="header">
+		<h1>Math takes time but it isn´t complex!</h1>
+		</a>
+		
+		<a href="https://www.figma.com/file/oMhpSh5XxQuCSubKYmSYZL/Math-the-NOT-complex?node-id=0%3A1">		
+			<button id="figma"><b>Try it!</b></button>
+		</a>
+		
+		
+		
+		<h1>About the game</h1>
+		The game I designed will be a card game based on math where you must defeat the opponent by getting more right answers.
+		 <hr>
+		
+		<h1>Game mechanics</h1>
+		Each player will have 50 hp and has 5 cards with different math problems. The first card will be the easiest and rewards with 1 point.1 point = 1 damage. Each card will reward 1 more point than the last. When you solve 1 card the card will turn blank and will return after 15 seconds with a new math problem.
+		 <hr>   
+		
+		<h1>Controls</h1>
+		The controls will be the number keys and either ENTER or SPACE to confirm your answer. You can you both number keys on the keyboard.
+		 <hr>
+		
+		<h1>Ment for</h1>
+		<p>This game is ment for children who wish to improve their math skills.</p>
+		<a href="picture.jpg"<h2> Picture</h2>
+		</a>
+		 <hr>
+		<a href="https://docs.google.com/document/d/1V4hv5CxVquOQnuL9pXaNyn0EOtKiDVzxksZOyp1Ja0Y/edit?usp=sharing">
+		<h2> Open for more details</h2> 
+		</a>
+		
+		<a href= "https://drive.google.com/file/d/1yaSmdLIECeoT4F8EVee8uWXwFFnyY0wR/view?usp=sharing">
+			<img src="https://i.imgur.com/NXIEro0.jpg" width="700" height="480"/>
+		</a>
+		<table>
+	  <tr>
+		<td>You</td>
+		<td>HP 36/50 </td>
+		<td>Opponent</td>
+		<td>HP 32/50</td>
+	  </tr>
+	  <tr>
+		<td>Correct</td>
+		<td>6</td>
+		<td>Correct</td>
+		<td>5</td>
+	  </tr>
+	  <tr>
+	    <td>Incorrect</td>
+		<td>2</td>
+		<td>Incorrect</td>
+		<td>4</td>
+	  </tr>	
+	    </table>
+		<table style="width: 69%">
+	  <tr> 	
+		<td>3 × 2 =</td>
+		<td>3 + 7 × 5 =</td>
+		<td>3/7 - 8 1/5 + 4,3 =</td>
+	  </tr>	
+	  <tr> 	
+		<td>2x +9x² - 36 : 3 = 0; x = </td>
+		<td>Wait for 7 seconds</td>
+		</table>
+		</table>
+		<div id="mocUp">
+		
+		<p id="prototype"><p/>
+		<input type="number" id="getFeedback"/> 
+		<button onclick="feedback()"; >Check</button>
+		<button onclick="reset()"; >New!</button>
+		<p id="solution"> <p/>
+		<script>
+		var answer = 0;
+		reset();
+		
+		function reset() {
+			var firstRandom = Math.floor(Math.random() * 11);
+			var secondRandom = Math.floor(Math.random() * 11);
+			document.getElementById("prototype").innerHTML = "What is " + firstRandom + " + " + secondRandom ;
+			answer = firstRandom + secondRandom;
+			
+			document.getElementById("getFeedback").value = "";
+			document.getElementById("solution").innerHTML = "";
+		}
+		
+		function feedback(){
+			var userAnswer = document.getElementById("getFeedback").value;			
+			if (userAnswer == answer) {
+				document.getElementById("solution").innerHTML = "Correct!";
+			} else { 
+				document.getElementById("solution").innerHTML = "False";
+			}
+		}
+		// idk whats wrong and why it wont show a diffrent message 
+		
+		
+		
+		
+		
+		
+		
+		//document.getElementById("solution").innerHTML = answer;
+		
+		//if ( theBox = answer) {7
+        //document.getElementById("solution").innerHTML = "Correct!";
+        //}
+		//else (){
+		//document.getElementById("solution").innerHTML = "Incorrect!";
+		//}
+		
+		</script>
+		
+		</div>
+		
+		
+	  </tr>	
+	  </div>  
+	</body>
+</html>
