@@ -2,6 +2,7 @@ h1 {
 	text-align: center;	
 	color: #010038;
 	font-family:Indie Flower;
+	
 }
    
 h2 {
@@ -21,17 +22,122 @@ h2 {
 	display: block;
 }
 body{
-    border:20px double green;
     margin:auto;	
-	padding:20px;
 	display:block;
-	width:1000px;
-	height:1700px;
-	background-color:pink;
+	width:100%;
+    background-color:#ffffff;
 	font-family:Arial, Helvetica, sans-serif;
+	
 }
-#mocUP{
+#trySolving{
+	font-size: 1.75em;
+	font-style: bold;
+
+	
+
+	
+}
+#mc_embed_signup{
+	background:#3C6E71; 
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+	margin:0;
+	display:block;
+}
+.theMocUp{	
+	
+}
+
+#backgroundImage{ 
+     background-image: url(math-background.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100%;
+}
+#bodyDiv{
+}	
+
+
+#mainTable{
+	display: flex;
+	justify-content:center;
+	text-align:center;
+}
+.imagePictures{
+	width:auto;
+	height:auto;
+}
+#funs{
+	height:25%;
+
+}
+#simples{
+	height:25%;
+	margin-left: 150;
+	margin-right: 150;
+	display:block;
+	display: flex;
+	justify-content:center;
+}
+#frees{
+	height:85%;
+	
+}
+#imageTable{
 	
 	
 }
+#aboutTheGame{
+	background-image: url(https://i.ytimg.com/vi/8Fxl2p3AWj0/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#bigThreeTitle{
+	font-size:160%;
+}
+
+#aboutTheGame{
+    margin:0;
+	display:block;
+}
+
+#mainName{
+	font-size:3em;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:0%;
+	margin-bottom:10%;
+	color:white;
+}
+#aboutTheGameText{
+	text-align:center;
+	font-size:150%;
+}
+#howItWorks{
+	margin-right:5%;
+	margin-left:5%;
+	background-color:white;
+    display: flex;
+	justify-content:center;
+    justify-content:space-between;	
+}
+#allOfMocUp{
+	background-color:#70AE6E;
+}
+#mentFor{
+	text-align:center;
+	font-size:1.25em;
+
+}
+#allOfMentFor{
+	background-color:#70AE6E;
+	margin:0;
+	display:block;
+}
+#moreDetails{
+    margin:0;
+	display:block;
+}
+
 
